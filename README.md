@@ -1,5 +1,5 @@
-# BioDT
-An integrated Digital-Twin-based framework for intelligent bio-manufacturing. 
+# BioDT: An integrated Digital-Twin-based framework for intelligent bio-manufacturing
+This framework represents a standard paradigm for digital twin-based cell culture systems, with the Pyrex bioprocess modeling library, cloud-native HMI and device interfaces incoporated.
 
 ![](screenshot.png)
 
