@@ -196,6 +196,10 @@ def feed_callback():
     dt.data.lac = 0
     reminder.value = "media changed"
 
+        
+def inoculate_callback():
+    dt.data.biomass += float(inoculate_text.value)
+        
 
 lac_btn.on_click(lac_callback)
 
@@ -206,6 +210,8 @@ glucose_btn.on_click(glucose_callback)
 predict_btn.on_click(predict_callback)
 feed_btn.on_click(feed_callback)
 device_btn.on_click(device_callback)
+inoculate_btn.on_click(inoculate_callback)
+
 
 def update_plot():
     if start_btn.active:
