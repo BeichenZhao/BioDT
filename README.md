@@ -4,7 +4,7 @@ This framework represents a standard paradigm for digital twin-based cell cultur
 ![](screenshot.png)
 
 # Usage
-1. Several Python packages is requried, including bokeh, Scipy, SQLite3, etc. For the sake of simplicity, we recommand to deal with the dependencies, which can be download from https://www.anaconda.com
+1. Several Python packages is requried, including bokeh, Scipy, SQLite3, etc. For the sake of simplicity, we recommand to deal with the dependencies with Anaconda, which can be download from https://www.anaconda.com
 2. Download the code
 ```shell
 git clone https://github.com/BeichenZhao/BioDT.git
